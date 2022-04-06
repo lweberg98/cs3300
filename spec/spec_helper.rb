@@ -101,5 +101,6 @@ SimpleCov.start 'rails' do
   add_filter '/db/'
   add_filter '/spec/' # for rspec
   add_filter '/app/channels/application_cable/channel.rb'
+  add_filter 'app/channels/application_cable/connection.rb'
 end
 

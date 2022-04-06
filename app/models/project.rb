@@ -1,2 +1,4 @@
 class Project < ApplicationRecord
-end
+    validates_presence_of :title, :description
+  end
+  
