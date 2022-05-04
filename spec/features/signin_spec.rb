@@ -11,7 +11,7 @@ feature "signing in" do
 
     scenario "visiting the signin" do
       visit root_path
-      click_link "Sign in"
+      click_link "Log in"
       fill_in_signin_fields
       expect(page).to have_content("Signed in successfully")
     end

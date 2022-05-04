@@ -85,3 +85,9 @@ group :development, :test do
   gem 'ffaker'
   gem 'factory_bot_rails'
 end
+
+gem 'bootstrap', '~> 4.6.1'
+
+gem 'jquery-rails'
+
+gem 'popper_js', '~> 1.16.0'
