@@ -1,11 +1,12 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Projects</h1>
+
 
 
 <!doctype html>
 <html lang="en">
   <head>
+  
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -68,11 +69,12 @@
         <div class="container">
           <h1 class="display-3">Logan Weberg</h1>
           <p>This is my portfolio.</p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+          <p><a class="btn btn-primary btn-lg" <%= link_to "New Project", new_project_path %></a></p>
         </div>
       </div>
 
       
+      <h1>Projects</h1>
 
   <tbody>
     <% @projects.each do |project| %>
@@ -106,6 +108,3 @@
   </tbody>
 </table>
 
-<br>
-
-<%= link_to 'New Project', new_project_path %>
